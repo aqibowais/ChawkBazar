@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+       
       fontFamily: {
         custom: ['Gillroy', 'sans-serif'],
       },
