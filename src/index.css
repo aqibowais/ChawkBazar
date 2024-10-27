@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Gilroy";
+    src: url('../assets/fonts/Outfit-Regular.ttf') format('truetype');
+  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+}
+body,html{
+    font-family: Gilroy;
+    width: 100%;
+  overflow-x: hidden;
+
+    scroll-behavior: smooth;
+    height: 100%;
+}
